@@ -63,7 +63,9 @@ This section details a successful simulation performed on May 7th, 2026.
 * **11:54:08 PM:** Email Sent.
 * **11:54:27 PM:** User clicked the link (**19s after delivery**).
 * **11:54:52 PM:** User submitted credentials (**44s after delivery**).
-* ## 1. Users & Groups
+* ## 4. Users & Groups
+  <p align="center"><img src="6.png" width="600"></p>
+  
 This section defines the targets of the simulation.
 
 * **Groups Configured:** Two groups are visible: 
@@ -94,6 +96,48 @@ This section defines what the user sees if they click a link in the phishing ema
 ---
 
 ## 4. Sending Profiles
+This section contains the technical configuration for delivering the emails.
+
+* **Profiles Configured:** Two SMTP profiles are active: 
+    * **"25link"**
+    * **"myfirstfinish"**
+* **Interface Type:** Both use **SMTP** (Simple Mail Transfer Protocol).
+* **Purpose:** These profiles contain the mail server settings (host, port, and credentials) required for Gophish to physically send the emails to the target groups.
+
+---
+
+## Project Summary
+The project is a structured **Phishing Awareness Simulation** designed to test user vulnerability to credential harvesting. By masquerading as a Google security alert (Email Template), the campaign directs users to a fake login site (Landing Page). The results of who opened the email, clicked the link, or submitted credentials would be tracked in the Gophish Dashboard under the campaign name **"war."**
+This section defines the targets of the simulation.
+
+* **Groups Configured:** Two groups are visible: 
+    * **"extra"**: Contains 1 member.
+    * **"individual"**: Contains 1 member.
+* **Purpose:** These groups serve as the mailing list for the campaign. In a professional setting, these would represent different departments or risk-profiles within an organization.
+
+---
+
+## 5. Email Templates
+This is the core content of the phishing attempt. The screenshot shows an "Edit Template" window for a template named **"google sign-in."**
+
+* **Subject Line:** "2-Step Verification selection."
+* **Sender Address:** Spoofed or designated as `firetech.house.7@gmail.com`.
+* **Content:** The email body mimics an official Google security notification with the heading **"2-Step Verification turned on."** It includes a professional-looking layout with the Google logo to instill a sense of urgency and legitimacy in the recipient.
+* **Technical Detail:** A tracking image is likely enabled to monitor if the recipient opens the email.
+
+---
+
+## 6. Landing Pages
+This section defines what the user sees if they click a link in the phishing email.
+
+* **Pages Configured:** Two landing pages are listed: 
+    * **"google"**: Likely designed to look like a Google login portal to capture credentials.
+    * **"page2"**: A secondary or alternative landing page.
+* **Function:** When a user clicks the link in the "google sign-in" email, they are directed to these pages. Gophish can be configured to capture any data the user enters (like passwords) or simply record that they "submitted data."
+
+---
+
+## 7. Sending Profiles
 This section contains the technical configuration for delivering the emails.
 
 * **Profiles Configured:** Two SMTP profiles are active: 
