@@ -17,36 +17,28 @@ This project demonstrates a simulated phishing campaign designed to test and imp
 1.  **Preparation:** Designed an enticing email template.
 2.  **Execution:** Launched a campaign targeting a specific test group.
 3.  **Analysis:** Monitored the dashboard to see user interaction levels.
-# Cyber-Security-Awareness-Phishing-Simulation
 
-A comprehensive security awareness project using the **Gophish** framework to simulate real-world phishing attacks and analyze human-risk vulnerabilities.
+## 1. Email Templates
+<p align="center"><img src="5.png" width="600"></p>
 
----
+This is the core content of the phishing attempt. The screenshot shows an "Edit Template" window for a template named **"google sign-in."**
 
-## 🛠 Tools Used
-* **Gophish:** Open-source phishing framework for campaign management.
-* **HTML/CSS:** Used to craft deceptive email templates and landing pages.
-* **Kali Linux:** The primary environment for simulation setup and hosting.
-* **SMTP Interface:** Configured for high-deliverability email routing.
-
-## 🚀 Key Features
-* **Custom Templates:** Designed realistic "Google Security" alerts to test user alertness.
-* **Real-time Analytics:** Tracked the full lifecycle: Email Sent → Opened → Clicked → Data Submitted.
-* **Target Management:** Organized specific user groups and sending profiles for granular testing.
-
----
-
+* **Subject Line:** "2-Step Verification selection."
+* **Sender Address:** Spoofed or designated as `firetech.house.7@gmail.com`.
+* **Content:** The email body mimics an official Google security notification with the heading **"2-Step Verification turned on."** It includes a professional-looking layout with the Google logo to instill a sense of urgency and legitimacy in the recipient.
+* **Technical Detail:** A tracking image is likely enabled to monitor if the recipient opens the email.
+ 
 ## 📊 Case Study: Campaign "war"
 This section details a successful simulation performed on May 7th, 2026.
 
-### 1. Campaign Workflow
+### 2. Campaign Workflow
 <p align="center"><img src="7.png" width="600"></p>
 
 1.  **Preparation:** Designed a "Google 2-Step Verification" email template and a matching credential harvest page.
 2.  **Execution:** Launched the campaign targeting the "nekatibeb" group.
 3.  **Analysis:** Monitored the dashboard to track the speed and success rate of the compromise.
 
-### 2. Results Dashboard
+### 3. Results Dashboard
 <p align="center"><img src="1.png" width="600"></p>
 
 | Metric | Count | Rate |
@@ -57,13 +49,13 @@ This section details a successful simulation performed on May 7th, 2026.
 | **Data Submitted** | 1 | 100% |
 | **Email Reported** | 0 | 0% |
 
-### 3. Timeline of Compromise
+### 4. Timeline of Compromise
 <p align="center"><img src="2.png" width="600"></p>
 
 * **11:54:08 PM:** Email Sent.
 * **11:54:27 PM:** User clicked the link (**19s after delivery**).
 * **11:54:52 PM:** User submitted credentials (**44s after delivery**).
-* ## 4. Users & Groups
+* ## 5. Users & Groups
   <p align="center"><img src="6.png" width="600"></p>
   
 This section defines the targets of the simulation.
@@ -75,17 +67,7 @@ This section defines the targets of the simulation.
 
 ---
 
-## 5. Email Templates
-<p align="center"><img src="5.png" width="600"></p>
 
-This is the core content of the phishing attempt. The screenshot shows an "Edit Template" window for a template named **"google sign-in."**
-
-* **Subject Line:** "2-Step Verification selection."
-* **Sender Address:** Spoofed or designated as `firetech.house.7@gmail.com`.
-* **Content:** The email body mimics an official Google security notification with the heading **"2-Step Verification turned on."** It includes a professional-looking layout with the Google logo to instill a sense of urgency and legitimacy in the recipient.
-* **Technical Detail:** A tracking image is likely enabled to monitor if the recipient opens the email.
-
----
 
 ## 6. Landing Pages
 <p align="center"><img src="4.png" width="600"></p>
