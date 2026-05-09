@@ -48,6 +48,7 @@ This section details a successful simulation performed on May 7th, 2026.
 
 ### 2. Results Dashboard
 <p align="center"><img src="1.png" width="600"></p>
+
 | Metric | Count | Rate |
 | :--- | :--- | :--- |
 | **Total Emails Sent** | 1 | 100% |
@@ -57,6 +58,8 @@ This section details a successful simulation performed on May 7th, 2026.
 | **Email Reported** | 0 | 0% |
 
 ### 3. Timeline of Compromise
+<p align="center"><img src="2.png" width="600"></p>
+
 * **11:54:08 PM:** Email Sent.
 * **11:54:27 PM:** User clicked the link (**19s after delivery**).
 * **11:54:52 PM:** User submitted credentials (**44s after delivery**).
