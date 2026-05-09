@@ -41,11 +41,13 @@ This section details a successful simulation performed on May 7th, 2026.
 
 ### 1. Campaign Workflow
 <p align="center"><img src="7.png" width="600"></p>
+
 1.  **Preparation:** Designed a "Google 2-Step Verification" email template and a matching credential harvest page.
 2.  **Execution:** Launched the campaign targeting the "nekatibeb" group.
 3.  **Analysis:** Monitored the dashboard to track the speed and success rate of the compromise.
 
 ### 2. Results Dashboard
+<p align="center"><img src="1.png" width="600"></p>
 | Metric | Count | Rate |
 | :--- | :--- | :--- |
 | **Total Emails Sent** | 1 | 100% |
