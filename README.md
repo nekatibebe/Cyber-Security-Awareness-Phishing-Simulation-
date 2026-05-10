@@ -61,8 +61,8 @@ This section details a successful simulation performed on May 7th, 2026.
 This section defines the targets of the simulation.
 
 * **Groups Configured:** Two groups are visible: 
-    * **"extra"**: Contains 1 member.
-    * **"individual"**: Contains 1 member.
+    * **"neka"**: Contains 1 member.
+    * **"nekatibeb"**: Contains 1 member.
 * **Purpose:** These groups serve as the mailing list for the campaign. In a professional setting, these would represent different departments or risk-profiles within an organization.
 
 ---
@@ -87,8 +87,8 @@ This section defines what the user sees if they click a link in the phishing ema
 This section contains the technical configuration for delivering the emails.
 
 * **Profiles Configured:** Two SMTP profiles are active: 
-    * **"25link"**
-    * **"myfirstfinish"**
+    * **"2Work"**
+    * **"myFirsWork"**
 * **Interface Type:** Both use **SMTP** (Simple Mail Transfer Protocol).
 * **Purpose:** These profiles contain the mail server settings (host, port, and credentials) required for Gophish to physically send the emails to the target groups.
 
