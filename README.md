@@ -24,7 +24,7 @@ This project demonstrates a simulated phishing campaign designed to test and imp
 This is the core content of the phishing attempt. The screenshot shows an "Edit Template" window for a template named **"google sign-in."**
 
 * **Subject Line:** "2-Step Verification selection."
-* **Sender Address:** Spoofed or designated as `firetech.house.7@gmail.com`.
+* **Sender Address:** Spoofed or designated as `felekechekole675@gmail.com`.
 * **Content:** The email body mimics an official Google security notification with the heading **"2-Step Verification turned on."** It includes a professional-looking layout with the Google logo to instill a sense of urgency and legitimacy in the recipient.
 * **Technical Detail:** A tracking image is likely enabled to monitor if the recipient opens the email.
  
